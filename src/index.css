@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+
+* {
+  
+  color: #473C33;
+}
+ 
+body {
+  background-color: #F9F5EB;
+}
+
+ul {
+  list-style-type: none;
+  list-style: none;
+}
+.search-area {
+  display: flex;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.search-area button{
+  cursor: pointer;
+  background-color: #473C33;
+  border-radius: 5px;
+  color: #F9F5EB;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.search-area input {
+  flex: 1;
+  border: 0;
+  background-color: antiquewhite;
+  font-size: 20px;
+  color: #473C33;
+}
+
+li {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #B5F1CC;
+  border-radius: 10px;
+  font-family: 'Varela', sans-serif;
+  padding: 30px;
+  text-align: center;
+}
+
+.user img {
+  width: 50%;
+}
+
+.user a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
